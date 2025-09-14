@@ -1,5 +1,6 @@
 langchain
 openai
 PyPDF2
+pdfplumber
 streamlit
 python-dotenv
