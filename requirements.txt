@@ -1,7 +1,7 @@
 langchain
 openai
-PyPDF2
+google-generativeai
 pdfplumber
+PyMuPDF
 streamlit
 python-dotenv
-google-generativeai
