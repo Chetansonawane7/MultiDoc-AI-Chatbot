@@ -2,6 +2,8 @@ import os
 import google.generativeai as genai
 from dotenv import load_dotenv # <-- IMPORT THE LIBRARY
 from process_pdf import extract_structured_data
+import fitz  # PyMuPDF
+
 
 # --- Configuration ---
 load_dotenv() # <-- LOAD VARIABLES FROM .env FILE
@@ -84,6 +86,8 @@ def answer_query(query, document_context):
         return response.text.strip()
     except Exception as e:
         return f"An error occurred with the AI model: {e}"
+    
+
 
 
 
