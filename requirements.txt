@@ -4,3 +4,4 @@ PyPDF2
 pdfplumber
 streamlit
 python-dotenv
+google-generativeai
